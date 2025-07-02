@@ -22,7 +22,13 @@ bufu-ai/
    docker compose -f infra/docker-compose.yml up --build
    ```
 4. **Frontend:** http://localhost:3000
-5. **Backend:** http://localhost:8000
+start the frontend after running npm install
+  cd frontend
+   npm run dev
+6. **Backend:** http://localhost:8000
+start the backend after installing python and dependencies
+   cd bufu-ai
+      uvicorn backend.main:app --reload
 
 ---
 
